@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledHeader from '../Styles/StyledHeader';
+import {StyledHeader} from '../Styles/StyledHeader.js';
 
 
 const Header = () => {
@@ -9,21 +9,20 @@ const Header = () => {
 
   return(
      <>
-     <StyledHeader>
+     
+       <StyledHeader>
+         <div className="logo">Logo</div>
 
-       <header>
-         <div>Logo</div>
 
-
-         <nav>
+         <nav className="nav">
            <a href="#">Create Ads</a>
            <a href="#">About</a>
            <a href="#">Logo in</a>
            <a href="#" className="register-btn">Register</a>
          </nav>
-       </header>
+       </StyledHeader>
 
-     </StyledHeader>
+     
       
      </>
   )
