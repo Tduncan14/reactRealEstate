@@ -6,7 +6,7 @@ export const StyledHeader= styled.header`
  color:white;
  overflow:auto;
  padding:20px 14px;
-
+ min-height:30px;
  .logo{
     float:left;
   }
