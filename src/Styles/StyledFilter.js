@@ -35,7 +35,18 @@ import {pink,offwhite,white,darkgray} from './Main';
 
       & .title{
           font-size:0.9rem;
-          color:blue;
-      }
+          display:block;
+          margin-bottom:1rem;}
+
+
+   & input[type="text"]{
+        width:45%;
+        border-radius:5px;
+        display:inline-block;
+        margin-right:2.5%;
+        margin-bottom:1rem;
+
+
+    }
   }
  `;

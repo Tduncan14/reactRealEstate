@@ -1,0 +1,4 @@
+<form name="registrationForm">
+    <input type="range" name="ageInputName" id="ageInputId" value="24" min="1" max="100" oninput="ageOutputId.value = ageInputId.value">
+    <output name="ageOutputName" id="ageOutputId">24</output>
+</form>

@@ -44,11 +44,11 @@ const Filter = () =>{
 
             <div className="filter extras">
 
-           <label for="beach"><span>Beach</span> <input type="checkbox" name="beach" value="beach"/></label>
-           <label for="porches"><span>Porches</span> <input type="checkbox" name="porches" value="porches"/></label>
-           <label for="elevator"><span>Elevator</span> <input type="checkbox" name="elevator" value="elevator"/></label>
-           <label for="pool"><span>Swimming Pool</span> <input type="checkbox" name="pool" value="pool"/></label>
-           <label for="fireplace"><span>Fireplace</span> <input type="checkbox" name="fireplace" value="fireplace"/></label>
+           <label htmlfor="beach"><span>Beach</span> <input type="checkbox" name="beach" value="beach"/></label>
+           <label htmlfor="porches"><span>Porches</span> <input type="checkbox" name="porches" value="porches"/></label>
+           <label htmlfor="elevator"><span>Elevator</span> <input type="checkbox" name="elevator" value="elevator"/></label>
+           <label htmlfor="pool"><span>Swimming Pool</span> <input type="checkbox" name="pool" value="pool"/></label>
+           <label htmlfor="fireplace"><span>Fireplace</span> <input type="checkbox" name="fireplace" value="fireplace"/></label>
 
             </div>
 
