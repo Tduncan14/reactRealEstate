@@ -8,6 +8,7 @@ const Filter = () =>{
 
     return(
        <StyledFilter>
+           <div className="inside">
             <h4>Filter</h4>
 
             <select name="neighbourhood" className="filters neighbourhood">
@@ -46,7 +47,7 @@ const Filter = () =>{
            <label for="beach"><span>Beach</span> <input type="checkbox" name="beach" value="beach"/></label>
            <label for="porches"><span>Porches</span> <input type="checkbox" name="porches" value="porches"/></label>
            <label for="elevator"><span>Elevator</span> <input type="checkbox" name="elevator" value="elevator"/></label>
-           <label for="pool"><span>Swimming Pool</span> <input type="checkbox" name="pool" value="pool"/></label>>
+           <label for="pool"><span>Swimming Pool</span> <input type="checkbox" name="pool" value="pool"/></label>
            <label for="fireplace"><span>Fireplace</span> <input type="checkbox" name="fireplace" value="fireplace"/></label>
 
             </div>
@@ -96,6 +97,7 @@ const Filter = () =>{
 
 
             </form> */}
+            </div>
             </StyledFilter>
     )
 }
