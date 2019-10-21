@@ -38,16 +38,35 @@ const Listing = () =>{
                         </div>
                         <div className="user-details">
                             <span className="user-name">Will Smith</span>
+                            <span className="user-date">05/06/2019</span>
+                        </div>
+                        <div className="listing-details">
+                            <div className="floor-space"><span>4000ft&sup2;</span></div>
+                            <div className="bedrooms"><i>🛏️</i> 
+                            <span>3 bedrooms</span>
+                            </div>
                         </div>
                     </div>
-                    <img src="" />
-
+                </div>
+                <div className="bottom-info">
+                  <span>2000 / month</span>
+                  <span>Chicago IL 📍 </span>
                 </div>
             </div>
          </section>
 
          <section className="pagination">
+           <ul className="paginations-number">
+               <li>Prev</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>Next</li>
+    
 
+           </ul>
          </section>
         </StyledListing>
     )
