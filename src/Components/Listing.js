@@ -4,7 +4,7 @@ import {StyledListing} from'../Styles/StyledListing';
 const Listing = () =>{
 
     return(
-        <StyledListing>
+        <StyledListing id="listing">
          <section className="searchArea">Choose a home </section>
          
          <input type="text" name="search"/>

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import {pink,offwhite,white,darkgray} from './Main';
 
  export const StyledFilter = styled.section `
-  display:flex;
-  flex-direction:column;
   background-color:${offwhite};
   width:30%;
+  display:inline-block;
+  float:left;
   min-height:70%;
 
   & .inside{
